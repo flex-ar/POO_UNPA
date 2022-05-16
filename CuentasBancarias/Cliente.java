@@ -1,27 +1,27 @@
 package CuentasBancarias;
 
 public class Cliente {
-	private String nombre;
-	private String domicilio;
-	
-	public Cliente(String nombre, String domicilio) {
-		this.setNombre(nombre);
-		this.setDomicilio(domicilio);
-	}
+  private String nombre;
+  private String domicilio;
 
-	private void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
+  public Cliente(String nombre, String domicilio) {
+    this.setNombre(nombre);
+    this.setDomicilio(domicilio);
+  }
 
-	public String getNombre() {
-		return nombre;
-	}
+  private void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
 
-	private void setDomicilio(String domicilio) {
-		this.domicilio = domicilio;
-	}
+  public String getNombre() {
+    return nombre;
+  }
 
-	public String getDomicilio() {
-		return domicilio;
-	}
+  private void setDomicilio(String domicilio) {
+    this.domicilio = domicilio;
+  }
+
+  public String getDomicilio() {
+    return domicilio;
+  }
 }
