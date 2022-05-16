@@ -3,10 +3,10 @@ package CuentasBancarias;
 import java.util.*;
 
 public class Banco {
-    private ArrayList<CuentaBancaria> cuentas;
-    private String nombre;
+  private ArrayList<CuentaBancaria> cuentas;
+  private String nombre;
 
-    public Banco(String nombre) {
+  public Banco(String nombre) {
     cuentas = new ArrayList<>();
     this.setNombre(nombre);
     this.agregarCuentas();
